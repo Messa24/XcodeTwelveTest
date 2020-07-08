@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var icon = "line.horizontal.3"
+    
     var body: some View {
-        Text("Hello, world!").padding()
+        NavigationView {
+            List {
+                Text("Hello, world!")
+                    .padding()
+            }
+            .navigationBarTitle("Gewerkte Uren")
+            .navigationBarItems(trailing: Button("Add") { print("Voeg toe") })
+            
+        }
+        
     }
 }
 

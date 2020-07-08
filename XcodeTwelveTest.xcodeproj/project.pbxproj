@@ -13,6 +13,11 @@
 		983CD3D824A225D800C0E0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983CD3D724A225D800C0E0A3 /* Preview Assets.xcassets */; };
 		983CD3E324A225D900C0E0A3 /* XcodeTwelveTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983CD3E224A225D900C0E0A3 /* XcodeTwelveTestTests.swift */; };
 		983CD3EE24A225D900C0E0A3 /* XcodeTwelveTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983CD3ED24A225D900C0E0A3 /* XcodeTwelveTestUITests.swift */; };
+		9848F2FC24A8F29D00CE13BF /* Werkdag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848F2FB24A8F29D00CE13BF /* Werkdag.swift */; };
+		9848F2FE24A8F32F00CE13BF /* Werknemer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848F2FD24A8F32F00CE13BF /* Werknemer.swift */; };
+		9848F30024A8F38600CE13BF /* Adres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848F2FF24A8F38600CE13BF /* Adres.swift */; };
+		9884EA3624B4D3200018200C /* WorkdayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884EA3524B4D3200018200C /* WorkdayRowView.swift */; };
+		9884EA3824B4D78F0018200C /* Werk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884EA3724B4D78F0018200C /* Werk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		983CD3E924A225D900C0E0A3 /* XcodeTwelveTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeTwelveTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		983CD3ED24A225D900C0E0A3 /* XcodeTwelveTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTwelveTestUITests.swift; sourceTree = "<group>"; };
 		983CD3EF24A225D900C0E0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9848F2FB24A8F29D00CE13BF /* Werkdag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkdag.swift; sourceTree = "<group>"; };
+		9848F2FD24A8F32F00CE13BF /* Werknemer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werknemer.swift; sourceTree = "<group>"; };
+		9848F2FF24A8F38600CE13BF /* Adres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adres.swift; sourceTree = "<group>"; };
+		9884EA3524B4D3200018200C /* WorkdayRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkdayRowView.swift; sourceTree = "<group>"; };
+		9884EA3724B4D78F0018200C /* Werk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 			children = (
 				983CD3D024A225D300C0E0A3 /* XcodeTwelveTestApp.swift */,
 				983CD3D224A225D300C0E0A3 /* ContentView.swift */,
+				9884EA3524B4D3200018200C /* WorkdayRowView.swift */,
+				9848F2FB24A8F29D00CE13BF /* Werkdag.swift */,
+				9884EA3724B4D78F0018200C /* Werk.swift */,
+				9848F2FD24A8F32F00CE13BF /* Werknemer.swift */,
+				9848F2FF24A8F38600CE13BF /* Adres.swift */,
 				983CD3D424A225D800C0E0A3 /* Assets.xcassets */,
 				983CD3D924A225D800C0E0A3 /* Info.plist */,
 				983CD3D624A225D800C0E0A3 /* Preview Content */,
@@ -259,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9848F30024A8F38600CE13BF /* Adres.swift in Sources */,
+				9884EA3824B4D78F0018200C /* Werk.swift in Sources */,
+				9884EA3624B4D3200018200C /* WorkdayRowView.swift in Sources */,
 				983CD3D324A225D300C0E0A3 /* ContentView.swift in Sources */,
+				9848F2FC24A8F29D00CE13BF /* Werkdag.swift in Sources */,
+				9848F2FE24A8F32F00CE13BF /* Werknemer.swift in Sources */,
 				983CD3D124A225D300C0E0A3 /* XcodeTwelveTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
